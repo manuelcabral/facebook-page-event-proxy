@@ -2,8 +2,9 @@
   "name": "facebook-page-events-proxy",
   "version": "0.0.0",
   "description": "Proxy to access Facebook page events from the browser",
-  "main": "index.coffee",
+  "main": "facebookPageEventProxy.coffee",
   "scripts": {
+    "start": "coffee start.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manuel Cabral (manuel.cabral@gmail.com)",
